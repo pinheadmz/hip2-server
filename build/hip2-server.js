@@ -27,6 +27,7 @@ try {
 } catch (e) {
   throw new Error('xpub file missing');
 }
+xpub = xpub.split('\n')[0];
 
 if (xpub === 'xpub6DBMpym6PM3qe7Ug7BwG6zo7dinMMjpk8nmb73czsjkzPTzfQ1d5ZvqDea4uNmMVv1Y9DT6v17GuDL1x2km9FQuKqWMdnrDfRiDNrG1nTMr')
   throw new Error('Example xpub must not be used! Repalce with your own account xpub.');
