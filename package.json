@@ -1,0 +1,24 @@
+{
+  "name": "hip2-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/hip2-server.js",
+  "scripts": {
+    "build": "bpkg --browser-field --ignore-bindings --no-license --node --output ./build/hip2-server.js ./src/derive.js",
+    "reset": "rm log/hip2-index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinheadmz/hip2-server.git"
+  },
+  "author": "Matthew Zipkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinheadmz/hip2-server/issues"
+  },
+  "homepage": "https://github.com/pinheadmz/hip2-server#readme",
+  "devDependencies": {
+    "bpkg": "^0.6.0",
+    "hsd": "^3.0.1"
+  }
+}
