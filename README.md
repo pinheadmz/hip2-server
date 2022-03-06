@@ -28,6 +28,7 @@ packages or C compiler, etc. Just run the build with a port number
 
 ```
 git clone https://github.com/pinheadmz/hip2-server
+cd hip2-server
 node hip2-server/build/hip2-server.js 8080
 ```
 

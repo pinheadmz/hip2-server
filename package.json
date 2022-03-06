@@ -4,8 +4,7 @@
   "description": "",
   "main": "build/hip2-server.js",
   "scripts": {
-    "build": "bpkg --browser-field --ignore-bindings --no-license --node --output ./build/hip2-server.js ./src/derive.js",
-    "reset": "rm log/hip2-index"
+    "build": "bpkg --browser-field --ignore-bindings --no-license --node --output ./build/hip2-server.js ./src/derive.js"
   },
   "repository": {
     "type": "git",
